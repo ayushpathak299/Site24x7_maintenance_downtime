@@ -25,14 +25,14 @@ logging.info(f'Script ended at {datetime.now()}')
 # Zoho OAuth credentials
 load_dotenv()
 
-client_id = os.getenv('CLIENT_ID')
-client_secret = os.getenv('CLIENT_SECRET')
-refresh_token = os.getenv('REFRESH_TOKEN')
-db_host = os.getenv('DB_HOST')
-db_name = os.getenv('DB_NAME')
-db_user = os.getenv('DB_USER')
-db_password = os.getenv('DB_PASSWORD')
-db_port = os.getenv('DB_PORT')
+client_id = os.getenv('client_id')
+client_secret = os.getenv('client_secret')
+refresh_token = os.getenv('refresh_token')
+db_host = os.getenv('db_host')
+db_name = os.getenv('db_name')
+db_user = os.getenv('db_user')
+db_password = os.getenv('db_password')
+db_port = os.getenv('db_port')
 
 # Zoho token endpoint
 token_url = "https://accounts.zoho.com/oauth/v2/token"
